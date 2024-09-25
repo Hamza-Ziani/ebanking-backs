@@ -1,0 +1,12 @@
+
+POST http://localhost:8081/auth/login
+Content-Type: application/x-www-form-urlencoded
+
+username=user&password=123
+
+
+# ## GET
+# GET http://localhost:8081/accounts
+# Accept: application/json
+
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcyNzI1NzA4NSwiaWF0IjoxNzI3MjUzNDg1LCJzY29wZSI6IlJPTEVfQURNSU4ifQ.2f_sbQQ1O4nCX3QON4vx7CnlOIgxbuPbGBeQKfYkw9s
